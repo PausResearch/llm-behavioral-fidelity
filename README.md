@@ -3,6 +3,8 @@
 Selected results and analysis code from *Engineering Behavioral Fidelity in
 LLM Agents for Economic Simulations* (master’s thesis, TU Berlin, 2026).
 
+The full thesis is available upon request.
+
 ## Study
 
 The study examines whether prompting, reasoning effort, and a
