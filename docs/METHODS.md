@@ -159,6 +159,6 @@ sent transfers is not by itself proof that memory caused later behavior.
 
 Full bibliographic entries and their roles in the design are in
 [REFERENCES.md](REFERENCES.md). Teubner and Camacho provide the human game and
-benchmark; Kral provides the original LLM implementation; Aher and colleagues
+benchmark; Aher and colleagues
 motivate comparison with human experimental evidence; Lorè and Heydari, Li and
 Shirado, and Park and colleagues motivate the selected interventions.

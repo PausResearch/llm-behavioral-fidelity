@@ -5,11 +5,6 @@
 A visual research portfolio for my thesis, *Engineering Behavioral Fidelity in
 LLM Agents for Economic Simulations*.
 
-**Built on Daniel Kral's original P1 implementation**, which recreates the
-repeated exchange game of [Teubner and Camacho (2023)](https://doi.org/10.1007/s10726-023-09814-4).
-My thesis extends that foundation with the interventions and analysis presented
-here. Daniel also supervised the thesis. [Contributions and attribution](ATTRIBUTION.md).
-
 ### Can LLM agents reproduce human behavior in this repeated game?
 
 I study **one repeated, six-player gift-exchange game**: how much agents share,
@@ -158,14 +153,12 @@ are maintained separately for research inspection.
 | Source | Its role in this project |
 | :--- | :--- |
 | [Teubner & Camacho (2023)](https://doi.org/10.1007/s10726-023-09814-4) | The repeated exchange game, human control benchmark, network measures, and the cut-and-reinforce pattern. This thesis uses their control condition; photo/avatar treatment effects are outside its scope. |
-| Daniel Kral, *P1* (2026; private research software) | The original LLM recreation of that game, which I extended for the thesis. His contribution is the experimental software foundation. |
 | [Aher, Arriaga & Kalai (2023)](https://proceedings.mlr.press/v202/aher23a.html) | The evaluation principle of comparing simulated behavior with established human experimental evidence. Their experiments are background, rather than additional tasks tested here. |
 | [Lorè & Heydari (2024)](https://doi.org/10.1038/s41598-024-69032-z) | Evidence that contextual framing can affect LLM strategic choices; motivation for the limited framing intervention in this game. |
 | [Li & Shirado (2025)](https://aclanthology.org/2025.emnlp-main.267/) | Prior evidence relating deliberation to changes in giving; motivation for examining a reasoning-effort intervention here. |
 | [Park et al. (2023)](https://arxiv.org/abs/2304.03442) | The architectural precedent for memory, reflection, and planning; adapted here into a periodic protocol for repeated exchange. |
 
-The numerical LLM results shown above come from **my thesis runs on the
-extended P1 implementation originally developed by Daniel Kral**. The human
+The numerical LLM results shown above come from **my thesis runs**. The human
 values are reconstructed from the original control data. The cited studies
 supply the benchmark or motivate the design; they are not the source of these
 intervention results. [Full references and scope of each citation](docs/REFERENCES.md).
@@ -175,14 +168,13 @@ intervention results. [Full references and scope of each citation](docs/REFERENC
 | Contributor | Contribution |
 | :--- | :--- |
 | **Timm Teubner and Sonia Camacho** | The original human experiment, repeated-game design, and human benchmark |
-| **Daniel Kral** | The original P1 implementation that recreates the experiment with LLM agents; the software foundation used for the thesis; thesis supervision |
+| **Daniel Kral** | Thesis supervision and the starting code for the experiments |
 | **Pau Kraus** | Thesis interventions and their evaluation, including the periodic MRP adaptation and single-call comparison; final thesis runs, behavioral comparisons, analysis, and this public showcase |
 | **Park and colleagues** | The published architectural precedent for combining memory, reflection, and planning |
 
-My work extends the existing game implementation. The thesis contribution is
-in the interventions and evaluation of behavioral fidelity within that repeated
-game. The original game, human dataset, and base LLM simulator are credited to
-their respective authors above.
+My contribution is the interventions and evaluation of behavioral fidelity
+within this repeated game. See [contributions and attribution](ATTRIBUTION.md)
+for details.
 
 The work combines **Python agent development, experimental design, network
 analysis, longitudinal statistical models, and reproducibility checks**. The
@@ -228,10 +220,12 @@ decision processes, or generalization to other games and models.
 
 ## Acknowledgments and citation
 
-**Supervisor and original simulator:** Daniel Kral. **Human experiment:**
-Timm Teubner and Sonia Camacho. The public scripts in this repository were
-written for the showcase; the original simulator is maintained in the private
-research archive.
+Thanks to **Daniel Kral** for supervising the thesis and providing the starting
+code for the experiments. The game and human benchmark come from
+**Timm Teubner and Sonia Camacho (2023)**.
+
+The public scripts were written for this showcase. The experimental code is
+maintained in the private research archive.
 
 Please distinguish this showcase and its thesis results from the underlying
 human experiment and architectural literature when citing them. Use

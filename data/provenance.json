@@ -30,17 +30,14 @@
   "temperature": 0.7,
   "study_status": "exploratory; not preregistered",
   "scope": "Aggregate results, newly written visualization code and a protocol schedule demonstration. No manuscript, participant records, original simulator source, raw model logs or credentials.",
-  "original_simulator": {
-    "author": "Daniel Kral",
-    "title": "P1",
-    "cited_version": "1534a41ac07748724cf62b198046da9235de6c3c",
-    "availability": "private research software; not redistributed in this showcase",
-    "role": "Original LLM recreation used as the experimental foundation for thesis extensions and runs"
-  },
   "architecture_reference": {
     "authors": "Park et al.",
     "year": 2023,
     "url": "https://arxiv.org/abs/2304.03442",
     "role": "Architectural precedent for memory, reflection, and planning; adapted for the repeated game"
+  },
+  "acknowledgments": {
+    "name": "Daniel Kral",
+    "contribution": "Thesis supervision and starting code for the experiments"
   }
 }

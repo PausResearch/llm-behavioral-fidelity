@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this showcase when using its code or aggregate results, and credit Daniel Kral for the original P1 simulator and the original studies for the human benchmark and architectural ideas. See docs/REFERENCES.md."
+message: "Please cite this showcase when using its code or aggregate results, and cite the original studies for the human benchmark and architectural ideas. See docs/REFERENCES.md."
 type: software
 title: "LLM Agents in a Repeated Exchange Game"
 authors:
@@ -16,15 +16,6 @@ keywords:
   - behavioral fidelity
   - agent architecture
 references:
-  - type: software
-    title: "P1"
-    authors:
-      - family-names: "Kral"
-        given-names: "Daniel"
-    year: 2026
-    version: "1534a41ac07748724cf62b198046da9235de6c3c"
-    repository-code: "https://github.com/Sertorius73/P1"
-    notes: "Private research software; original LLM implementation underlying the thesis experiments. Not redistributed in this showcase."
   - type: article
     title: "Facing Reciprocity: How Photos and Avatars Promote Interaction in Micro-communities"
     authors:

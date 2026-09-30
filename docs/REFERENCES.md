@@ -16,19 +16,6 @@ the paper's primary analysis window of rounds 1–12. Its human aggregates are
 reconstructed from the control data. The paper also studies photographs and
 avatars; those treatment effects are outside this thesis's tested scope.
 
-## Original LLM implementation
-
-**Kral, D. (2026).** *P1* [Research software; private repository], version
-`1534a41ac07748724cf62b198046da9235de6c3c`. GitHub, `Sertorius73/P1`.
-
-Daniel Kral developed the original LLM recreation of the game and supervised
-the thesis. This implementation is the experimental foundation of the thesis
-runs, including the no-intervention baseline.
-Pau Kraus extended this foundation for the interventions and analysis. This is
-a software attribution, not a claim that Kral published a peer-reviewed article
-with the thesis results. The private simulator is not included in this public
-showcase; its small visualization and schedule examples were written separately.
-
 ## Evaluating behavior against human evidence
 
 **Aher, G. V., Arriaga, R. I., & Kalai, A. T. (2023).** Using Large Language
