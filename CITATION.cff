@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this showcase when using its code or aggregate results, and cite the original studies for the benchmark and architectural ideas. See docs/REFERENCES.md."
+type: software
+title: "LLM Agents in a Repeated Exchange Game"
+authors:
+  - family-names: "Kraus"
+    given-names: "Pau"
+version: "1.0.0"
+date-released: "2026-09-30"
+repository-code: "https://github.com/PausResearch/llm-behavioral-fidelity"
+url: "https://github.com/PausResearch/llm-behavioral-fidelity"
+abstract: "Visual research showcase of LLM behavior in one repeated gift-exchange game, with selected aggregate thesis results, chart-generation code, and an illustrative memory-reflection-planning schedule."
+keywords:
+  - repeated games
+  - large language models
+  - behavioral fidelity
+  - agent architecture

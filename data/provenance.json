@@ -1,0 +1,33 @@
+{
+  "title": "Engineering Behavioral Fidelity in LLM Agents for Economic Simulations",
+  "author": "Pau Kraus",
+  "institution": "TU Berlin",
+  "thesis_submitted": "2026-09-20",
+  "exported": "2026-09-30",
+  "source_archive_commit": "1f24dea609d3024fb036f4ba2c0d6c1736e3fee3",
+  "analysis_rounds": [
+    1,
+    12
+  ],
+  "source_tables": {
+    "descriptive_means.csv": "c6a481f58b9d9b88299f42e5a90e291cca306abb668eb0ff1b875d4a39d3fca6",
+    "hypothesis_evidence.csv": "1df74f908158d4b9ca9c81f3d415da9a6b420c46aae28ed729360a6516cf77d4",
+    "cohort_metrics.csv": "1c59446f41ee0d153526b8c4b284a46f11b2228062eaed6264b4c7a92ea8a932"
+  },
+  "relationship_summary": "Equal-weight mean of non-missing cohort metrics within each condition, matching the final analysis. Formation rate is undefined when a cohort has no previously inactive ties: five baseline cohorts and four single-call cohorts contribute to that column. Only condition-level aggregates are included.",
+  "human_benchmark": {
+    "citation": "Teubner and Camacho (2023), Facing Reciprocity",
+    "doi": "10.1007/s10726-023-09814-4",
+    "control_cohorts": 12,
+    "participants": 72
+  },
+  "llm_conditions": 5,
+  "llm_cohorts_per_condition": 6,
+  "llm_agents_per_cohort": 6,
+  "simulated_rounds": 15,
+  "recorded_llm_decisions": 2700,
+  "model": "mistral-medium-3-5",
+  "temperature": 0.7,
+  "study_status": "exploratory; not preregistered",
+  "scope": "Aggregate results, newly written visualization code and a protocol schedule demonstration. No manuscript, participant records, original simulator source, raw model logs or credentials."
+}
