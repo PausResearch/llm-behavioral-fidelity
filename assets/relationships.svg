@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864.93625pt" height="432.359719pt" viewBox="0 0 864.93625 432.359719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864.93625pt" height="457.311734pt" viewBox="0 0 864.93625 457.311734" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -20,10 +20,10 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 432.359719
-L 864.93625 432.359719
-L 864.93625 -0
-L 0 -0
+   <path d="M 0 457.311734
+L 864.93625 457.311734
+L 864.93625 0
+L 0 0
 z
 " style="fill: #ffffff"/>
   </g>
@@ -515,6 +515,9 @@ L 849.09625 324.864
   <g id="text_45">
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #566779" transform="translate(16.59625 401.150672)">Transitions ending in rounds 2–12 · Means of cohort summaries · Retained ties follow the same sender and recipient</text>
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #566779" transform="translate(16.59625 414.648)">MRP shows the cut-and-reinforce pattern; the size of reinforcement remains above the human benchmark.</text>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #566779" x="16.59625" y="439.704" transform="rotate(-0 16.59625 439.704)">Thesis: Pau Kraus (2026) · Simulator: Daniel Kral, P1 · Human experiment: Teubner &amp; Camacho (2023)</text>
   </g>
  </g>
  <defs>

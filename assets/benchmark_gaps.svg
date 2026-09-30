@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="868.68pt" height="413.711719pt" viewBox="0 0 868.68 413.711719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="868.68pt" height="437.367734pt" viewBox="0 0 868.68 437.367734" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -20,10 +20,10 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 413.711719
-L 868.68 413.711719
-L 868.68 0
-L 0 0
+   <path d="M 0 437.367734
+L 868.68 437.367734
+L 868.68 -0
+L 0 -0
 z
 " style="fill: #ffffff"/>
   </g>
@@ -320,6 +320,9 @@ L 852.84 350.46
   <g id="text_44">
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #566779" transform="translate(15.84 382.502672)">0 = matching mean    ·    1 = baseline distance    ·    Above 1 = further away</text>
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #566779" transform="translate(15.84 396)">Descriptive ratios, not a combined fidelity score or a test of equivalence. Recipient count and density measure the same margin.</text>
+  </g>
+  <g id="text_45">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #566779" x="20.34" y="419.76" transform="rotate(-0 20.34 419.76)">Thesis: Pau Kraus (2026) · Simulator: Daniel Kral, P1 · Human experiment: Teubner &amp; Camacho (2023)</text>
   </g>
  </g>
  <defs>

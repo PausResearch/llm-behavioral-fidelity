@@ -1,6 +1,9 @@
 # Data in this showcase
 
-These are aggregate outputs of Pau Kraus's submitted master's thesis. No
+These are aggregate outputs of Pau Kraus's submitted master's thesis. The
+LLM results were produced with the thesis extensions to Daniel Kral's original
+P1 implementation. The human control evidence comes from Teubner and Camacho
+(2023). These sources are distinct from the visualization code supplied here. No
 participant-level records, individual model transcripts, or manuscript files
 are included.
 
@@ -28,3 +31,6 @@ formation is undefined. Other displayed relationship measures use all cohorts.
 The visualization scripts are newly written for this showcase. Figures are
 generated directly from these tables. The original simulator, statistical
 fitting code, and raw experimental archive are maintained separately.
+
+See [contributions and attribution](../ATTRIBUTION.md) for the scope of the
+public material and the original implementation credit.

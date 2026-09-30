@@ -42,6 +42,10 @@ def style():
 
 def save(fig, name):
     OUT.mkdir(exist_ok=True)
+    credit = ('MRP adaptation: Pau Kraus · Architecture: Park et al. (2023) · Simulator: Daniel Kral, P1'
+              if name == 'mrp_protocol' else
+              'Thesis: Pau Kraus (2026) · Simulator: Daniel Kral, P1 · Human experiment: Teubner & Camacho (2023)')
+    fig.text(0.055, -0.035, credit, fontsize=8.5, color=MUTED)
     fig.savefig(OUT / f'{name}.png', dpi=170, bbox_inches='tight', pad_inches=0.22)
     svg = OUT / f'{name}.svg'
     fig.savefig(svg, bbox_inches='tight', pad_inches=0.22, metadata={'Date': None})

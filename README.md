@@ -5,6 +5,11 @@
 A visual research portfolio for my thesis, *Engineering Behavioral Fidelity in
 LLM Agents for Economic Simulations*.
 
+**Built on Daniel Kral's original P1 implementation**, which recreates the
+repeated exchange game of [Teubner and Camacho (2023)](https://doi.org/10.1007/s10726-023-09814-4).
+My thesis extends that foundation with the interventions and analysis presented
+here. Daniel also supervised the thesis. [Contributions and attribution](ATTRIBUTION.md).
+
 ### Can LLM agents reproduce human behavior in this repeated game?
 
 I study **one repeated, six-player gift-exchange game**: how much agents share,
@@ -159,18 +164,25 @@ are maintained separately for research inspection.
 | [Li & Shirado (2025)](https://aclanthology.org/2025.emnlp-main.267/) | Prior evidence relating deliberation to changes in giving; motivation for examining a reasoning-effort intervention here. |
 | [Park et al. (2023)](https://arxiv.org/abs/2304.03442) | The architectural precedent for memory, reflection, and planning; adapted here into a periodic protocol for repeated exchange. |
 
-The numerical LLM results shown above come from **my thesis runs**. The human
+The numerical LLM results shown above come from **my thesis runs on the
+extended P1 implementation originally developed by Daniel Kral**. The human
 values are reconstructed from the original control data. The cited studies
 supply the benchmark or motivate the design; they are not the source of these
 intervention results. [Full references and scope of each citation](docs/REFERENCES.md).
 
-## My contribution
+## Contributions
 
-Building on Daniel Kral's original exchange-game implementation, I developed
-and evaluated the thesis interventions, including the periodic MRP architecture
-and its single-call comparison. I assembled the final experimental evidence,
-compared agent behavior with the human benchmark, and analyzed both aggregate
-outcomes and relationship-level dynamics.
+| Contributor | Contribution |
+| :--- | :--- |
+| **Timm Teubner and Sonia Camacho** | The original human experiment, repeated-game design, and human benchmark |
+| **Daniel Kral** | The original P1 implementation that recreates the experiment with LLM agents; the software foundation used for the thesis; thesis supervision |
+| **Pau Kraus** | Thesis interventions and their evaluation, including the periodic MRP adaptation and single-call comparison; final thesis runs, behavioral comparisons, analysis, and this public showcase |
+| **Park and colleagues** | The published architectural precedent for combining memory, reflection, and planning |
+
+My work extends the existing game implementation. The thesis contribution is
+in the interventions and evaluation of behavioral fidelity within that repeated
+game. The original game, human dataset, and base LLM simulator are credited to
+their respective authors above.
 
 The work combines **Python agent development, experimental design, network
 analysis, longitudinal statistical models, and reproducibility checks**. The
@@ -178,8 +190,9 @@ research archive includes offline replay checks covering all 30 LLM cohorts.
 
 ## Explore the results yourself
 
-The code in this showcase is newly written to reproduce these visualizations
-from the included aggregate tables and illustrate the protocol. It runs
+This repository contains standalone code written for the showcase. It
+reproduces the visualizations from the included aggregate tables and illustrates
+the MRP schedule. It runs
 without an API key or access to participant records. It does not rerun the
 original experiments or refit the thesis's statistical models.
 
@@ -223,4 +236,6 @@ research archive.
 Please distinguish this showcase and its thesis results from the underlying
 human experiment and architectural literature when citing them. Use
 [CITATION.cff](CITATION.cff) for the showcase and
-[the reference list](docs/REFERENCES.md) for the original sources.
+[the reference list](docs/REFERENCES.md) for the original sources. The
+showcase citation identifies this repository only; it does not attribute the
+underlying simulator or human experiment to Pau Kraus.

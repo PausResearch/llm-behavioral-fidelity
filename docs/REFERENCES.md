@@ -21,7 +21,9 @@ avatars; those treatment effects are outside this thesis's tested scope.
 **Kral, D. (2026).** *P1* [Research software; private repository], version
 `1534a41ac07748724cf62b198046da9235de6c3c`. GitHub, `Sertorius73/P1`.
 
-Daniel Kral provided the LLM recreation of the game and supervised the thesis.
+Daniel Kral developed the original LLM recreation of the game and supervised
+the thesis. This implementation is the experimental foundation of the thesis
+runs, including the no-intervention baseline.
 Pau Kraus extended this foundation for the interventions and analysis. This is
 a software attribution, not a claim that Kral published a peer-reviewed article
 with the thesis results. The private simulator is not included in this public
