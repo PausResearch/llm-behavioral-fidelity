@@ -1592,7 +1592,7 @@ z
    </g>
   </g>
   <g id="text_95">
-   <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192e42" x="43.363344" y="32.556563" transform="rotate(-0 43.363344 32.556563)">Behavior in a repeated exchange game</text>
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192e42" x="43.363344" y="29.517187" transform="rotate(-0 43.363344 29.517187)">Behavior in a repeated exchange game</text>
   </g>
   <g id="text_96">
    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #566779" x="43.363344" y="55.7856" transform="rotate(-0 43.363344 55.7856)">Five LLM conditions compared with the same human control benchmark</text>
@@ -1601,7 +1601,7 @@ z
    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #566779" x="43.363344" y="543.888" transform="rotate(-0 43.363344 543.888)">Rounds 1–12 · Condition means · Dashed lines mark human means · Descriptive comparisons; no uncertainty intervals</text>
   </g>
   <g id="text_98">
-   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #566779" x="24.355344" y="576.72" transform="rotate(-0 24.355344 576.72)">Thesis: Pau Kraus (2026) · Human experiment: Teubner &amp; Camacho (2023)</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #566779" x="24.355344" y="576.72" transform="rotate(-0 24.355344 576.72)">Human benchmark: Teubner &amp; Camacho (2023)</text>
   </g>
  </g>
  <defs>

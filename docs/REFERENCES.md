@@ -1,6 +1,6 @@
 # References and what they support
 
-This is a focused source list for the public showcase. Each entry identifies
+This is a focused source list for the repository. Each entry identifies
 what the thesis takes from the source and what the present experiment tests.
 All five LLM conditions are evaluated within one repeated gift-exchange game.
 
@@ -68,12 +68,12 @@ identify the separate causal contribution of every architectural component.
 
 ## Thesis results shown in this repository
 
-**Kraus, P. (2026).** *Engineering Behavioral Fidelity in LLM Agents for Economic
-Simulations*. Master's thesis, TU Berlin; submitted 20 September 2026.
+*Engineering Behavioral Fidelity in LLM Agents for Economic
+Simulations* (2026). Master's thesis, TU Berlin; submitted 20 September 2026.
 
-The LLM condition means, relationships, and effect estimates in this showcase
+The LLM condition means, relationships, and effect estimates in this repository
 come from this thesis's final recorded runs and analysis. Only selected
 aggregate results are shared here. The thesis manuscript is not publicly
 distributed in this repository. See [data provenance](../data/README.md) for
 the source-table hashes and [CITATION.cff](../CITATION.cff) to cite the public
-showcase itself.
+repository itself.

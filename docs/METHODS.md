@@ -91,7 +91,7 @@ recipient count. The archive assigns zero intensity to zero-recipient rounds.
 For network value, the group-payoff normalization uses
 `minimum = 6 × (√96 + 4 × √1 − 5)` and
 `maximum = 6 × (4 × √17 + 2 × √16 − 5)`.
-The showcase uses the archived normalized means directly.
+The analysis uses the archived normalized means directly.
 
 ## Reading the gap figure
 

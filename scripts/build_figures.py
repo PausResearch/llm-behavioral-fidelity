@@ -1,4 +1,4 @@
-"""Rebuild the research portfolio figures from the included aggregate tables.
+"""Rebuild the research figures from the included aggregate tables.
 
 These are descriptive views. No raw participant data or model access is needed.
 """
@@ -42,9 +42,9 @@ def style():
 
 def save(fig, name):
     OUT.mkdir(exist_ok=True)
-    credit = ('MRP adaptation: Pau Kraus · Architecture: Park et al. (2023)'
+    credit = ('Architecture adapted from Park et al. (2023)'
               if name == 'mrp_protocol' else
-              'Thesis: Pau Kraus (2026) · Human experiment: Teubner & Camacho (2023)')
+              'Human benchmark: Teubner & Camacho (2023)')
     fig.text(0.055, -0.035, credit, fontsize=8.5, color=MUTED)
     fig.savefig(OUT / f'{name}.png', dpi=170, bbox_inches='tight', pad_inches=0.22)
     svg = OUT / f'{name}.svg'
@@ -80,7 +80,7 @@ def benchmark(results):
         ax.grid(axis='x', color=GRID, linewidth=0.6)
         ax.set_axisbelow(True)
         ax.tick_params(axis='y', length=0, pad=10)
-    fig.suptitle('Behavior in a repeated exchange game', x=0.075, ha='left', fontsize=22, fontweight='bold', y=0.99)
+    fig.suptitle('Behavior in a repeated exchange game', x=0.075, ha='left', fontsize=18, fontweight='normal', y=0.99)
     fig.text(0.075, 0.917, 'Five LLM conditions compared with the same human control benchmark', fontsize=12, color=MUTED)
     fig.subplots_adjust(left=0.16, right=0.98, top=0.82, bottom=0.13, hspace=0.75, wspace=0.38)
     fig.text(0.075, 0.025, 'Rounds 1–12 · Condition means · Dashed lines mark human means · Descriptive comparisons; no uncertainty intervals', fontsize=9, color=MUTED)
@@ -105,7 +105,7 @@ def gap_matrix(results):
     ax.grid(which='minor', color='white', linewidth=5)
     ax.tick_params(which='minor', length=0)
     for spine in ax.spines.values(): spine.set_visible(False)
-    fig.suptitle('Progress depends on what you measure', x=0.05, y=0.985, ha='left', fontsize=22, fontweight='bold')
+    fig.suptitle('Relative distance from human means', x=0.05, y=0.985, ha='left', fontsize=18, fontweight='normal')
     fig.text(0.05, 0.855, 'Distance from the human mean, relative to the baseline gap', color=MUTED, fontsize=12)
     fig.subplots_adjust(left=0.2, right=0.98, top=0.69, bottom=0.14)
     fig.text(0.05, 0.025, '0 = matching mean    ·    1 = baseline distance    ·    Above 1 = further away\nDescriptive ratios, not a combined fidelity score or a test of equivalence. Recipient count and density measure the same margin.', fontsize=9, color=MUTED, linespacing=1.7)
@@ -134,10 +134,10 @@ def relationships():
         ax.grid(axis='x', color=GRID, lw=0.6)
         ax.set_axisbelow(True)
         ax.tick_params(axis='y', length=0)
-    fig.suptitle('The structure of relationships also changes', x=0.055, y=0.98, ha='left', fontsize=22, fontweight='bold')
-    fig.text(0.055, 0.86, 'MRP makes exchange more selective, while strengthening surviving ties', color=MUTED, fontsize=12)
+    fig.suptitle('Relationship dynamics', x=0.055, y=0.98, ha='left', fontsize=18, fontweight='normal')
+    fig.text(0.055, 0.86, 'Tie removal and transfer changes across conditions', color=MUTED, fontsize=12)
     fig.subplots_adjust(left=0.175, right=0.98, top=0.72, bottom=0.24, wspace=0.7)
-    fig.text(0.055, 0.025, 'Transitions ending in rounds 2–12 · Means of cohort summaries · Retained ties follow the same sender and recipient\nMRP shows the cut-and-reinforce pattern; the size of reinforcement remains above the human benchmark.', fontsize=9, color=MUTED, linespacing=1.7)
+    fig.text(0.055, 0.025, 'Transitions ending in rounds 2–12 · Means of cohort summaries · Retained ties follow the same sender and recipient\nPositive values indicate increased transfers on retained ties.', fontsize=9, color=MUTED, linespacing=1.7)
     save(fig, 'relationships')
 
 
@@ -146,7 +146,7 @@ def protocol():
     ax.set_xlim(0, 16)
     ax.set_ylim(0, 5)
     ax.axis('off')
-    fig.suptitle('Memory, reflection, planning — over time', x=0.055, y=0.98, ha='left', fontsize=22, fontweight='bold')
+    fig.suptitle('Memory, reflection, and planning', x=0.055, y=0.98, ha='left', fontsize=18, fontweight='normal')
     fig.text(0.055, 0.845, 'A persistent plan guides each decision; reflection and planning update every three rounds', fontsize=11, color=MUTED)
     for i, (heading, desc, color) in enumerate([
         ('MEMORY', 'Observed exchange history', '#168B80'),

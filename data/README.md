@@ -1,6 +1,6 @@
-# Data in this showcase
+# Data provenance
 
-These are aggregate outputs of Pau Kraus's submitted master's thesis. The
+These are aggregate outputs of the submitted master’s thesis. The
 LLM results come from the final thesis experiments. The human control evidence
 comes from Teubner and Camacho
 (2023). These sources are distinct from the visualization code supplied here. No
@@ -28,7 +28,7 @@ rate only, the baseline contributes five cohorts and the single-call control
 contributes four: the remaining cohorts have no previously inactive ties, so
 formation is undefined. Other displayed relationship measures use all cohorts.
 
-The visualization scripts are newly written for this showcase. Figures are
+The visualization scripts are newly written for this repository. Figures are
 generated directly from these tables. The original simulator, statistical
 fitting code, and raw experimental archive are maintained separately.
 

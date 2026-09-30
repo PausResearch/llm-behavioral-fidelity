@@ -1,4 +1,4 @@
-"""Explore the showcase's aggregate results using only Python's standard library."""
+"""Summarize the aggregate results using only Python's standard library."""
 from __future__ import annotations
 
 import csv
